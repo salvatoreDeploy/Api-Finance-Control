@@ -12,7 +12,7 @@
 
 1. Faça o clone do projeto na sua máquina `git@github.com:salvatoreDeploy/Api-finance-control.git`
 2. Na raiz do projeto, execute o comando `yarn` para baixar as dependências;
-3. Execute `docker-compose up` para rodar o Docker e ele fazer a instalação das imagens do DockerFile e o Docker-compose.yml para subir a aplicção em node e o database do postrgres, e assim ja startar o servidor e database da aplicação;
+3. Execute `docker-compose up` para rodar o Docker e ele fazer a instalação das imagens do DockerFile e o Docker-compose para subir a aplicação em node e o database do postrgres, e assim ja startar o servidor e database da aplicação;
 4. Execute `yarn typeorm migration:run` para rodar as migrations construir as tabelas dentro do banco de dados;
 5. Execute `yarn seed:categories` para rodar a seed que vai inserir as categorias pré-estabelecidas;
 
