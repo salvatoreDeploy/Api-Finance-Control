@@ -16,33 +16,12 @@
 4. Execute `yarn typeorm migration:run` para rodar as migrations construir as tabelas dentro do banco de dados;
 5. Execute `yarn seed:categories` para rodar a seed que vai inserir as categorias pré-estabelecidas;
 
-# Rotas e serviços:
+# Rotas da Aplicação:
 
-- [x] Cadastrar Usuario;
-- [x] Autenticação do Usuario;
-- [x] Criar Categorias de gastos;
-- [x] CRUD para gastos;
-- [x] CRUD para ganhos;
-- [x] Extrato de todos os gastos, ganhos e saldo na carteira;
-- [x] Extrato de gastos por tipo de gastos;
-- [x] Extrato de todos os gastos;
-- [x] Extrato de todos os ganhos;
+# User:
 
-## Mapeamento de trabalhos:
-
-- [x] Infraestrutura com Docker;
-- [x] Estrutura de init de projeto;
-- [x] Estrutura do projeto;
-- [x] Modelagem do banco e migrations;
-- [x] Rota de Cadastro de Usuario, Controller, Model;
-- [x] Rota de Autenticação do Usuario, Controller, Model;
-
-- [x] Rota de Carteira do Usuario, Controller, Model;
-- [x] Rota de Operaçoes gastos, Controller, Model;
-- [x] Rota de Operaçoes ganhos, Controller, Model;
-- [x] Rota de Extratos, Controller, Model;
-
-- [x] Documentação
+- **`POST /users`**: Criação do Usuario.
+- **`POST /login`**: Login do Usuario
 
 ## Documentação Postman:
 
