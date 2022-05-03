@@ -21,7 +21,19 @@
 # User:
 
 - **`POST /users`**: Criação do Usuario.
-- **`POST /login`**: Login do Usuario
+- **`POST /login`**: Login do Usuario.
+
+# Invoice:
+- **`POST /invoice/receita`**: Lançamento de uma nova receita passando os parametros `user_id, categorie_id, descriptio, type, value`, atraves do `body`da `request`.
+- **`POST /invoice/despesa`**: Lançamento de uma nova despesa passando os parametros `user_id, categorie_id, descriptio, type, value`, atraves do `body`da `request`.
+- **`GET /invoice/list/invoiceexpense/:user_id`**: Listagem de trasações do tipo Expense por usuario, passando o id do usuario como parametro na rota.
+- **`GET /invoice/list/invoiceincome/:user_id`**: Listagem de trasações do tipo Income por usuario, passando o id do usuario como parametro na rota.
+- **`GET /invoice/list/invoiceall/:user_id`**: Listagem de todas as trasações por usuario, passando o id do usuario como parametro na rota.
+- **`GET /invoice/list/balanceinvoice/:user_id`**: Extrato de todas as trasações e Balanço geral por usuario, passando o id do usuario como parametro na rota.
+- **`PUT /invoice/update/receita/:id`**: Alteração no lançamento de recita passando os parametros `description`, `type`, `value` pelo `body` da `request`, e o `id` da receita em questão no corpo do url.
+- **`PUT /invoice/update/despesa/:id`**: Alteração no lançamento da despesa passando os parametros `description`, `type`, `value` pelo `body` da `request`, e o `id` da despesa em questão no corpo do url.
+- **`DELETE /invoice/update/receita/:id`**: Deleção de uma receita, passando o id da mesma no corpo da url.
+- **`DELETE /invoice/update/despesa/:id`**: Deleção de uma despesa, passando o id da mesma no corpo da url.
 
 ## Documentação Postman:
 
