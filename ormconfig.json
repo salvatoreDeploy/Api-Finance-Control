@@ -1,0 +1,14 @@
+{
+    "type": "postgres",
+    "port": 5432,
+    "host": "localhost",
+    "username": "docker",
+    "password": "api",
+    "database": "api",
+    "migrations": ["./src/database/migrations/*.ts"],
+    "entities": ["./src/modules/user/entities/*.ts", "./src/modules/invoices/entities/*.ts", 
+        "./src/modules/categories/entities/*.ts"],
+    "cli":{
+        "migrationsDir": "./src/database/migrations"
+    }
+}
