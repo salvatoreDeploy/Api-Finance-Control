@@ -1,5 +1,7 @@
 ## Projeto Api Finaças
 
+Em geral, ter uma boa visão dos seus ganhos e gastos é um ótimo "Primeiro Passo" para alcançar uma melhor saúde financeira. Dessa forma, você deverá desenvolver uma API de controle financeiro, para auxiliar aqueles que desejam melhorar o relacionamento com o seu "bolso".
+
 # Requisitos Funcionais:
 
 - Deve haver login e logout do usuário na plataforma
