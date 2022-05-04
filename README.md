@@ -39,4 +39,6 @@ Em geral, ter uma boa visão dos seus ganhos e gastos é um ótimo "Primeiro Pas
 
 ## Documentação Postman:
 
+Acessar url para verificar API via Postman.
+
 https://documenter.getpostman.com/view/14241427/UyrHftE6#intro
